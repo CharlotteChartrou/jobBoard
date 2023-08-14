@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  width: 1440px;
+  height: 100px;
+  background-color: #2c2c2c;
+}
+
+h1 {
+  font-size: 40px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  width: 1440px;
+  height: 1100px;
+  background-color: white;
+  padding: 50px 210px;
+}
+
+.jobs {
+  width: 1020px;
+  height: 1020px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.border-red {
+  border: 10px solid red;
+}
+
+.border-green {
+  border: 10px solid #3da535;
+}
+
+.border-blue {
+  border: 10px solid #079fe3;
+}
+
+.border-pink {
+  border: 10px solid #f8c5b0;
+}
+
+.border-yellow {
+  border: 10px solid #ffee02;
+}
+
+footer {
+  width: 1440px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  background-color: #dddddd;
+}
+
+footer p {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
